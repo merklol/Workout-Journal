@@ -1,0 +1,15 @@
+name: Post merge
+
+on:
+  push:
+    branches: [ main, develop ]
+
+jobs:
+  allChecks:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Run all checks
+      run: ./gradlew check --stacktrace
+      
