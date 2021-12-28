@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Maxim Smolyakov
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<resources>
+    <string name="new_workout_note">New workout note</string>
+    <string name="undo_message">%1$s has been removed</string>
+    <string name="no_history_img_description">Add workout notes image</string>
+    <string name="no_history_title">No workout history yet</string>
+    <string name="no_history_message">After your first workout\nyou will be able to view it here</string>
+    <string name="sessions_category_key">sessions_category</string>
+    <string name="sessions_category_title">General</string>
+    <string name="start_breaks_automatically_key">start_breaks_automatically</string>
+    <string name="start_breaks_automatically_title">Start Breaks Automatically</string>
+    <string name="about_category_key">about_category</string>
+    <string name="about_category_title">About</string>
+    <string name="rate_app_key">rate_app</string>
+    <string name="rate_app_title">Rate the App</string>
+    <string name="rate_app_summary">Rate this app on the Play Store</string>
+    <string name="privacy_policy_key">privacy_policy</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="version_key">version</string>
+    <string name="version_title">Version</string>
+</resources>
