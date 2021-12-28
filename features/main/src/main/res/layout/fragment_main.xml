@@ -19,19 +19,22 @@
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   -->
 
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/timer_graph"
-    app:startDestination="@id/timerFragment"
-    tools:ignore="UnusedResources">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.maximapps.main.ui.MainFragment">
 
-    <fragment
-        android:id="@+id/timerFragment"
-        android:name="com.maximapps.timer.ui.TimerFragment"
-        tools:layout="@layout/fragment_timer">
-        <argument
-            android:name="properties"
-            app:argType="com.maximapps.core.utils.navigation.models.Properties" />
-    </fragment>
-</navigation>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        style="@style/Widget.MaterialComponents.TabLayout.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -19,19 +19,12 @@
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   -->
 
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/timer_graph"
-    app:startDestination="@id/timerFragment"
-    tools:ignore="UnusedResources">
-
-    <fragment
-        android:id="@+id/timerFragment"
-        android:name="com.maximapps.timer.ui.TimerFragment"
-        tools:layout="@layout/fragment_timer">
-        <argument
-            android:name="properties"
-            app:argType="com.maximapps.core.utils.navigation.models.Properties" />
-    </fragment>
-</navigation>
+<resources>
+    <string name="timer_dialog_title">Countdown Timer</string>
+    <string name="timer_dialog_message">Recovery time is over. Continue to workout!</string>
+    <string name="timer_dialog_button_text">Continue</string>
+    <string name="timer_title">short break</string>
+    <string name="start_button_text">start</string>
+    <string name="stop_button_text">stop</string>
+    <string name="timer_is_up">00:00</string>
+</resources>

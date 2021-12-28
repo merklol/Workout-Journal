@@ -19,19 +19,35 @@
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   -->
 
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/timer_graph"
-    app:startDestination="@id/timerFragment"
-    tools:ignore="UnusedResources">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/black_iris_900">
 
-    <fragment
-        android:id="@+id/timerFragment"
-        android:name="com.maximapps.timer.ui.TimerFragment"
-        tools:layout="@layout/fragment_timer">
-        <argument
-            android:name="properties"
-            app:argType="com.maximapps.core.utils.navigation.models.Properties" />
-    </fragment>
-</navigation>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/noteTitle"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="New Workout" />
+
+        <TextView
+            android:id="@+id/noteCreatedAt"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue_haze_100"
+            tools:text="01.01.1970" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

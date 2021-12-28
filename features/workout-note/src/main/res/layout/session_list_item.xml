@@ -19,19 +19,34 @@
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   -->
 
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/timer_graph"
-    app:startDestination="@id/timerFragment"
-    tools:ignore="UnusedResources">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/coarse_wool_900"
+    android:orientation="vertical"
+    android:paddingVertical="18dp">
 
-    <fragment
-        android:id="@+id/timerFragment"
-        android:name="com.maximapps.timer.ui.TimerFragment"
-        tools:layout="@layout/fragment_timer">
-        <argument
-            android:name="properties"
-            app:argType="com.maximapps.core.utils.navigation.models.Properties" />
-    </fragment>
-</navigation>
+    <TextView
+        android:id="@+id/sessionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/cyan_blue_300"
+        android:textSize="12sp"
+        tools:text="push ups" />
+
+    <TextView
+        android:id="@+id/repetitions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue_haze_100"
+        tools:text="Repetitions: 30" />
+
+    <TextView
+        android:id="@+id/breakDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue_haze_100"
+        tools:text="Break Duration: 00:30s" />
+</LinearLayout>

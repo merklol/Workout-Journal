@@ -19,19 +19,11 @@
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   -->
 
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/timer_graph"
-    app:startDestination="@id/timerFragment"
-    tools:ignore="UnusedResources">
-
-    <fragment
-        android:id="@+id/timerFragment"
-        android:name="com.maximapps.timer.ui.TimerFragment"
-        tools:layout="@layout/fragment_timer">
-        <argument
-            android:name="properties"
-            app:argType="com.maximapps.core.utils.navigation.models.Properties" />
-    </fragment>
-</navigation>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionDetails"
+        android:icon="@drawable/outline_info_24"
+        android:title="@string/action_details"
+        app:showAsAction="always" />
+</menu>
