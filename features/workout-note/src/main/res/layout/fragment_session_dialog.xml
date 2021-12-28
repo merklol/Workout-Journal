@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Maxim Smolyakov
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.maximapps.workoutNote.ui.sessionDialog.SessionDialogFragment">
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:text="@string/session_group_name"
+        android:textColor="@color/cyan_blue_300"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:textColorHint="@color/blue_haze_100"
+        app:boxBackgroundColor="@color/black_iris_900"
+        app:boxStrokeErrorColor="@color/cyan_blue_300"
+        app:counterEnabled="true"
+        app:counterMaxLength="20"
+        app:counterTextColor="@color/blue_haze_100"
+        app:errorIconTint="@color/cyan_blue_300"
+        app:errorTextColor="@color/cyan_blue_300"
+        app:helperText="Minimum 1 character"
+        app:helperTextTextColor="@color/blue_haze_100">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/session_name_field_hint"
+            android:inputType="text"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColor="@color/blue_haze_100" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/repsTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:textColorHint="@color/blue_haze_100"
+        app:boxBackgroundColor="@color/black_iris_900"
+        app:boxStrokeErrorColor="@color/cyan_blue_300"
+        app:errorIconTint="@color/cyan_blue_300"
+        app:errorTextColor="@color/cyan_blue_300"
+        app:helperText="Use only numbers"
+        app:helperTextTextColor="@color/blue_haze_100">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/repetitions_field_hint"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="@color/blue_haze_100" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:text="@string/break_duration_group_name"
+        android:textColor="@color/cyan_blue_300"
+        android:textSize="18sp"
+        app:boxStrokeErrorColor="@color/cyan_blue_300"
+        app:errorIconTint="@color/cyan_blue_300"
+        app:errorTextColor="@color/cyan_blue_300" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/breakDurationField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:textColorHint="@color/blue_haze_100"
+        app:boxBackgroundColor="@color/black_iris_900"
+        app:boxStrokeErrorColor="@color/cyan_blue_300"
+        app:errorIconTint="@color/cyan_blue_300"
+        app:errorTextColor="@color/cyan_blue_300"
+        app:helperText="Enter break duration in seconds"
+        app:helperTextTextColor="@color/blue_haze_100">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/break_duration_field_hint"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="@color/blue_haze_100" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
