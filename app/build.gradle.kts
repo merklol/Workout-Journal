@@ -17,7 +17,7 @@ dependencies {
     implementation(Libraries.room())
     implementation(Libraries.navigation())
     implementation(Libraries.daggerHilt())
-    implementation(Libraries.sharedPreferences)
+    implementation(Libraries.preferences)
 
     implementation(project(":core"))
     implementation(project(":core-ui"))
