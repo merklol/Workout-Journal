@@ -7,5 +7,5 @@ plugins {
 configuration(testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner")
 
 dependencies {
-    implementation(Libraries.sharedPreferences)
+    implementation(Libraries.preferences)
 }

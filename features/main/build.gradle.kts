@@ -30,7 +30,7 @@ dependencies {
     implementation(Libraries.daggerHilt())
     implementation(Libraries.lifecycle)
     implementation(Libraries.viewBindingDelegate)
-    implementation(Libraries.sharedPreferences)
+    implementation(Libraries.preferences)
 
     implementation(project(":core"))
     implementation(project(":core-ui"))
