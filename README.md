@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">  
-Workout Journal is the app for those who want to track their progress over a workout and a calendar period.
+Workout Journal is a mobile app for those who want to track their progress over a workout and a calendar period. The app allows you to record a number of your exercise repetitions for a set and use a custom timer countdown as rest time between exercise sets during training.
 </p>
 
 <p align="center">
