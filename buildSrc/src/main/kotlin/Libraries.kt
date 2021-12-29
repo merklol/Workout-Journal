@@ -29,7 +29,7 @@ object Versions {
     const val Navigation = "2.4.0-rc01"
     const val Room = "2.4.0"
     const val Coroutines = "1.5.2"
-    const val SharedPreferences = "1.1.1"
+    const val Preferences = "1.1.1"
     const val RecyclerView = "1.2.1"
     const val Lifecycle = "2.4.0"
     const val ViewBindingDelegate = "1.5.0-beta01"
@@ -55,9 +55,9 @@ object Libraries {
     val material get() = "com.google.android.material:material:${Versions.Material}"
 
     /**
-     * Interface for accessing and modifying preference data.
+     * Interactive settings screens.
      */
-    val sharedPreferences get() = "androidx.preference:preference-ktx:${Versions.SharedPreferences}"
+    val preferences get() = "androidx.preference:preference-ktx:${Versions.Preferences}"
 
     /**
      * Dynamic list for Android.
