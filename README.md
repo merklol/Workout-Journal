@@ -12,7 +12,9 @@ Workout Journal is a mobile app for those who want to track their progress over 
 </p>
 
 <p align="center">
-<img src="images/screenshot.png"/>
+<img src="images/screenshot-1.png" width="32%"/>
+<img src="images/screenshot-2.png" width="32%"/>
+<img src="images/screenshot-3.png" width="32%"/>
 </p>
 
 ## Tech stack & Open-source libraries
