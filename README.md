@@ -54,7 +54,7 @@ Workout Journal is a mobile app for those who want to track their progress over 
 
 ## Download
 
-[<img src="images/google-play-badge.png" width="200"/>](https://play.google.com/store/apps/details?id=com.maximcode.mccalculator)
+[<img src="images/google-play-badge.png" width="200"/>](https://play.google.com/store/apps/details?id=com.maximapps.workoutjournal)
 
 ## Suggestions
 

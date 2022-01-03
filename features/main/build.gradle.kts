@@ -19,7 +19,7 @@ configuration(
         ConfigField(
             "String",
             "GOOGLE_PLAY_URL",
-            "\"market://details?id=com.maximapps.alinchinese\""
+            "\"market://details?id=com.maximapps.workoutjournal\""
         )
     )
 )
