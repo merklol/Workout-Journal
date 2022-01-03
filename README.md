@@ -7,8 +7,8 @@
   <a href="https://kotlinlang.org"><img alt="Build Status" src="https://img.shields.io/badge/Language-Kotlin-blue"/></a> 
 </p>
 
-<p align="center">  
-Workout Journal is a mobile app for those who want to track their progress over a workout and a calendar period. The app allows you to record a number of your exercise repetitions for a set and use a custom timer countdown as rest time between exercise sets during training.
+<p align="center">
+Workout Journal is a mobile app for those who want to track their progress over a workout and a calendar period, along with controlling the rest time during training. The app allows you to record a number of your exercise repetitions per set and use a custom timer countdown as rest time between exercise sets.
 </p>
 
 <p align="center">
@@ -22,9 +22,10 @@ Workout Journal is a mobile app for those who want to track their progress over 
 ### Language
 
 - [Kotlin](https://kotlinlang.org)
-- [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) & [Flow](https://kotlinlang.org/docs/flow.html) for asynchronous programming
+- [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)
+  & [Flow](https://kotlinlang.org/docs/flow.html) for asynchronous programming
 
-### Android Software Development Kit 
+### Android Software Development Kit
 
 - Target level 31
 - Minimum level 23
@@ -32,15 +33,21 @@ Workout Journal is a mobile app for those who want to track their progress over 
 ### Open-source Libraries
 
 - [Dagger Hilt](https://dagger.dev/hilt/) - a dependency injection library for Android
-- [ViewBindingDelegate](https://github.com/kirich1409/ViewBindingPropertyDelegate) - a property delegate for [ViewBinding](https://developer.android.com/topic/libraries/view-binding)
+- [ViewBindingDelegate](https://github.com/kirich1409/ViewBindingPropertyDelegate) - a property
+  delegate for [ViewBinding](https://developer.android.com/topic/libraries/view-binding)
 
 ### Jetpack Libraries
 
-- [Room Persistence](https://developer.android.com/jetpack/androidx/releases/room) - an abstraction layer over SQLite
-- [Navigation](https://developer.android.com/jetpack/androidx/releases/navigation) - a framework for navigating between 'destinations' 
-- [Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle) - lifecycle-aware components
-- [Recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview) - a view group to create dynamic lists
-- [Preferences](https://developer.android.com/jetpack/androidx/releases/preference) - interactive settings screens 
+- [Room Persistence](https://developer.android.com/jetpack/androidx/releases/room) - an abstraction
+  layer over SQLite
+- [Navigation](https://developer.android.com/jetpack/androidx/releases/navigation) - a framework for
+  navigating between 'destinations'
+- [Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle) - lifecycle-aware
+  components
+- [Recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview) - a view
+  group to create dynamic lists
+- [Preferences](https://developer.android.com/jetpack/androidx/releases/preference) - interactive
+  settings screens
 
 ### Test Libraries
 
@@ -58,7 +65,8 @@ Workout Journal is a mobile app for those who want to track their progress over 
 
 ## Suggestions
 
-If you have general suggestions, please feel free to submit a new [Github issue](https://github.com/merklol/Workout-Journal/issues/new).
+If you have general suggestions, please feel free to submit a
+new [Github issue](https://github.com/merklol/Workout-Journal/issues/new).
 
 ## License
 
@@ -66,4 +74,5 @@ Distributed under the MIT License. See [LICENSE](LICENSE.md) for more informatio
 
 ## Contact
 
-Maxim Smolyakov - [LinkedIn](https://linkedin.com/in/maxim-smolyakov-8945211a5) - [Email](mailto:sm.makism@icloud.com) - [Facebook](https://www.facebook.com/merk.merklol)
+Maxim Smolyakov - [LinkedIn](https://linkedin.com/in/maxim-smolyakov-8945211a5)
+- [Email](mailto:sm.makism@icloud.com) - [Facebook](https://www.facebook.com/merk.merklol)
